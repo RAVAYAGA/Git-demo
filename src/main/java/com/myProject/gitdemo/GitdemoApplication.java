@@ -11,6 +11,9 @@ public class GitdemoApplication {
 			System.out.println("true");
 		}
 	}
+	public void addMethod(String data){
+        System.out.println("Hi");
+	}	
 	public static void main(String[] args) {
 		SpringApplication.run(GitdemoApplication.class, args);
 	}
