@@ -7,8 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GitdemoApplication {
 
 	public void addData(String s) {
-		System.out.println(s);
-		if(s.equals("Hellow")) {
+		if(s.equals(Practice.ss)) {
 			System.out.println("true");
 		}
 	}
